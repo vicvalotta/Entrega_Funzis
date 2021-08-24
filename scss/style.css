@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.marca {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 35px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  padding: 0% 30%;
+}
+
+.fuente-card-texto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.fuente-card-titulo, .title-sections {
+  font-family: "Roboto Mono", monospace;
+  font-family: "Staatliches", cursive;
+  text-transform: uppercase;
+}
+
+.background-color-header {
+  margin: 2% 3%;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+}
+
+.logo_espiral {
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+  transition: all 2s;
+}
+
+.logo_espiral:hover {
+  transform: rotate(360deg);
+}
+
+.foto_perfil {
+  width: 25%;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.marca {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 35px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  padding: 0% 30%;
+}
+
+.fuente-card-texto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.fuente-card-titulo, .title-sections {
+  font-family: "Roboto Mono", monospace;
+  font-family: "Staatliches", cursive;
+  text-transform: uppercase;
+}
+
+.background-color-header {
+  margin: 2% 3%;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+}
+
+.logo_espiral {
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+  transition: all 2s;
+}
+
+.title-sections {
+  padding: 1% 12%;
+}
+
+.section_zines {
+  margin: 0% 11%;
+  font-size: 80%;
+  color: black;
+  background-color: white;
+}
+
+.section-2_zines {
+  margin: 0% 30%;
+  font-size: 80%;
+  color: white;
+  background-color: black;
+}
+
+.marca {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 35px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: black;
+  padding: 0% 30%;
+}
+
+.fuente-card-texto {
+  font-family: "Roboto Mono", monospace;
+}
+
+.title-sections, .fuente-card-titulo {
+  font-family: "Roboto Mono", monospace;
+  font-family: "Staatliches", cursive;
+  text-transform: uppercase;
+}
+
+.background-color-header {
+  margin: 2% 3%;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: white;
+}
+
+.logo_espiral {
+  width: 30%;
+  text-align: center;
+  border-radius: 6px;
+  transition: all 2s;
+}/*# sourceMappingURL=style.css.map */

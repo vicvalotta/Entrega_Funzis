@@ -1,0 +1,29 @@
+@import "extends";
+
+.title-sections {
+    @extend %card-title-font;
+    padding: 1% 12%;
+}
+
+.fuente-card-texto {
+   @extend %card-texto-font;
+}
+.fuente-card-titulo {
+    @extend %card-title-font;
+}
+
+@mixin parametros-sections ($margin, $font-size, $font-color, $bg-color) {
+    margin: $margin;
+    font-size: $font-size;
+    color: $font-color;
+    background-color: $bg-color;
+}
+
+.section_zines {
+    @include parametros-sections(0% 11%, 80%, black, white)
+}
+
+.section-2_zines {
+    @include parametros-sections(0% 30%, 80%,white, black)
+}
+

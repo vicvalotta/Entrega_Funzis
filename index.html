@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="scss/style.css">
+
+     <!--Fuente marca-->
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,500&display=swap" rel="stylesheet">
+ 
+     <!--Fuente card texto -->
+ 
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap" rel="stylesheet">
+    
+     <!--Fuente Titulo card-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>Fanzis Valotta</title>
+</head>
+<body>
+
+    <!--Inicio Header-->
+<header class="container background-color-header">
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-2" ><a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <img class="logo_espiral" src="images/Espiral.png" alt="logo_espiral">
+          </a>
+          
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">¡Hola Vic!</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <img class="foto_perfil" src="images/Foto_Perfil.PNG" alt="Foto_Perfil">
+              </div>
+              <div class="dropdown mt-3">
+                <a class="btn btn-dark" href="index.html" role="button">Home</a>
+              </div>
+              <div class="dropdown mt-3">
+                <a class="btn btn-dark" href="index.html" role="button">Mi Perfil</a>
+              </div>
+              <div class="dropdown mt-3">
+                <a class="btn btn-dark" href="index.html" role="button">Mis Funzis</a>
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Funzis Favs
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Buenas noches, pun pun</a></li>
+                  <li><a class="dropdown-item" href="#">Uzumaki</a></li>
+                  <li><a class="dropdown-item" href="#">Sintonia cerebral</a></li>
+                  <li><a class="dropdown-item" href="Funzis-favs.html">Ver todos</a></li>
+                </ul>
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Autorxs Favoritos
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Junji Ito</a></li>
+                  <li><a class="dropdown-item" href="#">Inio Asano</a></li>
+                  <li><a class="dropdown-item" href="#">Bombas para desayunar</a></li>
+                  <li><a class="dropdown-item" href="Autorxs-favs.html">Ver todxs</a></li>
+                </ul>
+              </div>
+              <div class="dropdown mt-3">
+                <a class="btn btn-dark" href="index.html" role="button">Mensajes</a>
+              </div>
+              <div class="dropdown mt-3">
+                <a class="btn btn-dark" href="index.html" role="button">Crear un Funzi</a>
+              </div>
+              <div class="dropdown mt-3">
+                <a class="btn btn-dark" href="index.html" role="button">Imprentas</a>
+              </div>    
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-10 marca">Funzis</div>
+        <div class="input-group col-lg-8 col-md-12 col-sm-12">
+            <input type="text" class="form-control" placeholder="Funzi" aria-label="Username" aria-describedby="input-group-button-right">
+            <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Buscar</button>
+          </div>
+    </div>
+</header>
+
+    <!--Fin Header-->
+
+    <!--Seccion cards zines-->
+
+    <section class="container section_zines">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 row-cols-md-1 g-4" style="width: 60rem;">
+            <div class="col">
+              <div class="card w-80">
+                <img src="images/buenas_noches_pun_pun.jpeg" class="card-img-top" alt="fanzi_punPun">
+                <div class="card-body">
+                  <h5 class="card-title fuente-card-titulo">Buenas noches, pun pun</h5>
+                  <p class="card-text fuente-card-texto">La historia sigue a Onodera Punpun, un niño normal que debe hacer frente a sus amigos y familia disfuncional, su interés amoroso, su adolescencia en sentido contrario y su mente hiperactiva. A medida que la vida de Punpun se vuelve cada vez más caótica, comienza a tratar temas del existencialismo y nihilismo. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">#Manga #Seinen</li>
+                </ul>
+                <div class="card-footer">
+                  <a href="#" class="card-link">Leer</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card w-80">
+                <img src="images/feminizine.jpg" class="card-img-top" alt="fanzi_Feminizine">
+                <div class="card-body">
+                    <h5 class="card-title fuente-card-titulo">Feminizine #1</h5>
+                     <p class="card-text fuente-card-texto">Un día te despiertas y decides que quieres hacer algo grande, darle un giro a tu vida. Y te preguntas "¿Qué puedo hacer yo? ¿Dedicarle una estatua gigante de bronce a mi ídolo? ¿Repoblar un bosque? ¿Cometer un asesinato que cambie el curso de la historia? ¿Tener un hijo?" Después te relajas un poco y decides poner la mira un poco más abajo: "¡ya lo sé! hacer un fanzine de imprenta" </p>
+                 </div>
+                 <ul class="list-group list-group-flush">
+                     <li class="list-group-item">#Zine #Feminismo</li>
+                </ul>
+                <div class="card-footer">
+                     <a href="https://issuu.com/andreagalaxina/docs/bpd_011_-_feminizine_1" class="card-link">Leer</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card w-80">
+                <img src="images/portadafachas.jpg" class="card-img-top" alt="fanzi_fachas">
+                <div class="card-body">
+                    <h5 class="card-title fuente-card-titulo">Odio a los fachas #1</h5>
+                    <p class="card-text fuente-card-texto">El confinamiento la verdad es que no dio para mucho aunque tuvo algo ¿bueno? Y es que retomé mi actividad "poética". Después de publicar mis opus poeticuorum completas bajo el título de Todas mis angustias juntas no había vuelto a darle al mini relato poético o como lo queráis llamar. Pero fue estar encerrada escuchando las conversaciones fachunas de mis vecinos y las caceroladas del demonio y tuve que hacer algo que me sirviese para canalizar la furia. De ahí surge Odio a los fachas, un pequeño poemario que en su edición física es joyita impresa en riso en el taller de mi colegui y vecina Amalia. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">#Zine #Feminismo</li>
+                </ul>
+                <div class="card-footer">
+                    <a href="https://archive.org/details/odioalosfachas" class="card-link">Leer</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card w-80">
+                <img src="images/uzumaki_junji_ito.jpg" class="card-img-top" alt="fanzi_uzumaki">
+                <div class="card-body">
+                  <h5 class="card-title fuente-card-titulo">Uzumaki</h5>
+                  <p class="card-text fuente-card-texto">Uzumaki, compuesta por varias historias cortas y autoconclusivas que a su vez se interconectan para narrar una mucho más grande y perturbadora, transcurre en la pequeña ciudad japonesa de Kurouzu y se centra en la insana obsesión con las espirales, remolinos y todas sus variedades que va chupando a sus habitantes, y cómo se sumergen gradualmente en la locura y la autodestrucción concéntrica.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">#Manga #Seinen</li>
+                </ul>
+                <div class="card-footer">
+                    <a href="#" class="card-link">Leer</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card w-80">
+              <img src="images/fuerzas_absurdas_zine.PNG" class="card-img-top" alt="fanzi_fuerzas_absurdas">
+              <div class="card-body">
+                <h5 class="card-title fuente-card-titulo">Fuerzas Absurdas #6</h5>
+                <p class="card-text fuente-card-texto">Otro Zine de Bombas para Desayunar. Publicado en Julio del 2014. </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">#Zine </li>
+              </ul>
+              <div class="card-footer">
+                  <a href="https://issuu.com/andreagalaxina/docs/fuerzas_absurdas_6_-_catty" class="card-link">Leer</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+            <div class="card w-80">
+              <img src="images/papeles_subterraneos.PNG" class="card-img-top" alt="fanzi_papeles_subterraneos">
+              <div class="card-body">
+                <h5 class="card-title fuente-card-titulo">Papeles subterraneos</h5>
+                <p class="card-text fuente-card-texto">"Papeles subterráneos" cuenta la historia de aquellas publicaciones que hablaron de música, desde las primerizas y efímeras realizadas con tijeras y pegamento en un piso de Chueca al poco de morir Franco hasta las realizadas con programas informáticos en esta misma década. </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">#Zine </li>
+              </ul>
+              <div class="card-footer">
+                  <a href="https://libroswalden.com/products/cesar-prieto-manuel-moreno-y-abel-cuevas-papeles-subterraneos" class="card-link">Leer</a>
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+
+ <!--Fin seccion 1 zines-->
+
+
+
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+<!--Fin Bootstrap-->
+    
+</body>
+</html>
